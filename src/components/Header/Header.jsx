@@ -1,10 +1,15 @@
-import Logo from './../Logo/Logo';
+import Logo from '../Logo/Logo';
+import BoxUser from '../BoxUser/BoxUser';
+import { HeaderBox } from './HeaderStyled';
 
 const Header = () => {
   return (
-    <header>
-      <Logo />
-    </header>
+    <>
+      <HeaderBox>
+        <Logo />
+        <BoxUser />
+      </HeaderBox>
+    </>
   );
 };
 

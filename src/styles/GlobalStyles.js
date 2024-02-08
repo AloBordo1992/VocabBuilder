@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
   color: ${colors.primaryTtextColor};
   background:${colors.backgroundLight} ;
   margin: 0;
-  padding: 0;
+  padding:  0 16px 0 16px;
    
   }
   main {
