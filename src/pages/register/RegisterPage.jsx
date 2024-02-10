@@ -1,11 +1,17 @@
-import { RegisterBox } from './registerPageStyled';
+import { Picture, RegisterBox, Text, Title, P } from './registerPageStyled';
 
 const RegisterPage = () => {
   return (
     <div>
-      <div>picture</div>
+      <Picture></Picture>
       <RegisterBox>
-        <div>Title + Supporting text</div>
+        <Text>
+          <Title>Register</Title>
+          <P>
+            To start using our services, please fill out the registration form
+            below. All fields are mandatory:
+          </P>
+        </Text>
         <div>
           forma
           <button></button>
