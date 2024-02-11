@@ -8,7 +8,7 @@ export const Picture = styled.div`
   background-size: cover;
 `;
 export const RegisterBox = styled.div`
-  top: 263px;
+  max-width: 375px;
   border-radius: 25px 25px 0px 0px;
   background: rgba(133, 170, 159, 0.1);
   padding: 32px 16px 0 16px;

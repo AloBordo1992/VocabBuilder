@@ -1,3 +1,4 @@
+import RegisterForm from 'components/RegisterForm/RegisterForm';
 import { Picture, RegisterBox, Text, Title, P } from './registerPageStyled';
 
 const RegisterPage = () => {
@@ -12,10 +13,9 @@ const RegisterPage = () => {
             below. All fields are mandatory:
           </P>
         </Text>
-        <div>
-          forma
-          <button></button>
-        </div>
+
+        <RegisterForm />
+
         <button></button>
       </RegisterBox>
     </div>
