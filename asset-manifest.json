@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/VocabBuilder/static/css/main.cd2e038f.css",
-    "main.js": "/VocabBuilder/static/js/main.7fd25bc3.js",
+    "main.js": "/VocabBuilder/static/js/main.ef0b8f19.js",
     "static/media/illustrationmobail@1x.png": "/VocabBuilder/static/media/illustrationmobail@1x.f7b32eecf5a5314e3238.png",
     "index.html": "/VocabBuilder/index.html",
     "static/media/LogoMobail.svg": "/VocabBuilder/static/media/LogoMobail.cdce518989a2402c0e539ca6a1b62aba.svg",
     "static/media/LogoPCTablet.svg": "/VocabBuilder/static/media/LogoPCTablet.954bb4601bf2e1a8c559e0a958f22815.svg",
     "static/media/NavBtnMobail.svg": "/VocabBuilder/static/media/NavBtnMobail.424592733778a4d52889214303e00fd1.svg",
     "main.cd2e038f.css.map": "/VocabBuilder/static/css/main.cd2e038f.css.map",
-    "main.7fd25bc3.js.map": "/VocabBuilder/static/js/main.7fd25bc3.js.map"
+    "main.ef0b8f19.js.map": "/VocabBuilder/static/js/main.ef0b8f19.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.7fd25bc3.js"
+    "static/js/main.ef0b8f19.js"
   ]
 }
