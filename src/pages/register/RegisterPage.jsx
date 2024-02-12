@@ -1,10 +1,13 @@
 import RegisterForm from 'components/RegisterForm/RegisterForm';
+import { NavLink } from 'react-router-dom';
+
 import { Picture, RegisterBox, Text, Title, P } from './registerPageStyled';
+import Maim from './../../components/Main/Maim';
 
 const RegisterPage = () => {
   return (
-    <div>
-      <Picture></Picture>
+    <Maim>
+      <Picture />
       <RegisterBox>
         <Text>
           <Title>Register</Title>
@@ -13,12 +16,10 @@ const RegisterPage = () => {
             below. All fields are mandatory:
           </P>
         </Text>
-
         <RegisterForm />
-
-        <button></button>
+        <NavLink to="/login">Login</NavLink>
       </RegisterBox>
-    </div>
+    </Maim>
   );
 };
 

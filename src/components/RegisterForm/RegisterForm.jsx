@@ -1,7 +1,7 @@
 import React from 'react';
-import { Formik, Form, ErrorMessage } from 'formik';
+import { Formik, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { FormList, Imput } from './RegisterFormStyled';
+import { FormList, Imput, Submit, Forma } from './RegisterFormStyled';
 
 const RegistrationForm = () => {
   const initialValues = {
@@ -28,7 +28,7 @@ const RegistrationForm = () => {
       onSubmit={handleSubmit}
     >
       {() => (
-        <Form>
+        <Forma>
           <FormList>
             <li>
               <Imput type="text" id="name" name="name" placeholder="Name" />
@@ -49,8 +49,8 @@ const RegistrationForm = () => {
               <ErrorMessage name="password" component="div" />
             </li>
           </FormList>
-          <button type="submit">Submit</button>
-        </Form>
+          <Submit type="submit">Submit</Submit>
+        </Forma>
       )}
     </Formik>
   );
